@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirual1.Primeiro.PrimeiroAno"
+             BackgroundColor="Gray">
+              
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+             <Frame BackgroundColor="Orange" Padding="24" CornerRadius="0">
+                    <Label Text="Matérias Primeiro Ano" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+             </Frame>
+
+                <Button Text="Matemática" Clicked="Button_Clicked_15" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Química" Clicked="Button_Clicked" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Física" Clicked="Button_Clicked_1" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Geografia" Clicked="Button_Clicked_2" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Portugês" Clicked="Button_Clicked_3" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Inglês" Clicked="Button_Clicked_4" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="História" Clicked="Button_Clicked_5" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Filosofia" Clicked="Button_Clicked_6" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Artes" Clicked="Button_Clicked_7" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Biologia" Clicked="Button_Clicked_8" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Ed.Física" Clicked="Button_Clicked_9" BackgroundColor="Orange" CornerRadius="50"/>
+
+            <!--
+            <Label Text= "Matérias curso" TextColor="Black" HorizontalOptions="CenterAndExpand" Padding="30"/> --> 
+             
+                
+                <Button Text="Análise e Projeto de Sistemas" Clicked="Button_Clicked_10" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Design Digital" Clicked="Button_Clicked_11" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Fundamentos da Informática" Clicked="Button_Clicked_12" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Técnicas de Progrmação e Algoritmos" Clicked="Button_Clicked_13" BackgroundColor="Orange" CornerRadius="50"/>
+                <Button Text="Banco de Dados" Clicked="Button_Clicked_14" BackgroundColor="Orange" CornerRadius="50"/>
+
+                <Button Text="Voltar" Clicked="Voltar" HorizontalOptions="End" BackgroundColor="Orange" CornerRadius="50"/>
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

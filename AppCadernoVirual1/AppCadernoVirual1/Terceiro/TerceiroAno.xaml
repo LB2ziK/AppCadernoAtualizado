@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirual1.Terceiro.TerceiroAno"
+             BackgroundColor="Gray">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="LimeGreen" Padding="24" CornerRadius="0">
+                    <Label Text="Matérias Terceiro Ano" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+                </Frame>
+                <Button Text="Matemática" Clicked="btn_mat_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Química" Clicked="btn_qui_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Física" Clicked="btn_fis_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Geografia" Clicked="btn_geo_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Portugês" Clicked="btn_port_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Inglês" Clicked="btn_ing_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="História" Clicked="btn_his_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Filosofia" Clicked="btn_fil_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Sociologia" Clicked="btn_soc_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Biologia" Clicked="btn_bio_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Ed.Física" Clicked="btn_edfis_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+
+                <!--
+            <Label Text= "Matérias curso" TextColor="Black" HorizontalOptions="CenterAndExpand" Padding="30"/> -->
+
+                <Button Text="Qualidade e Teste de Software" Clicked="btn_testesoftware_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Internet e Protocolos" Clicked="btn_internet_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Progamação WEB III" Clicked="btn_web3_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="Programação Mobile II" Clicked="btn_mob2_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+                <Button Text="TCC" Clicked="btn_tcc_terceiro" BackgroundColor="LimeGreen" CornerRadius="50"/>
+
+                <Button Text="Voltar" HorizontalOptions="End" Clicked="Voltar3" BackgroundColor="LimeGreen" CornerRadius="50"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
